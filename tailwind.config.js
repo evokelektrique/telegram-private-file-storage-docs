@@ -14,5 +14,11 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["lemonade"],
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    require("daisyui")
+  ],
 }
