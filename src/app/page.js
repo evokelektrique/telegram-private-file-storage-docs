@@ -9,7 +9,7 @@ export default function Home() {
     <main className={"container px-2 md:px-0 mx-auto text-center flex flex-col items-center justify-center h-screen"}>
       <h1 className={"text-2xl antialiased font-bold " + shantell.className}>Telegram Private File Storage Bot</h1>
 
-      <Image src={"/screenshot.png"} alt="Telegram Private File Storage Screenshot" width={512} height={512} className="mx-auto my-[2.5rem] rounded-lg" />
+      <Image src={"/telegram-private-file-storage-docs/screenshot.png"} alt="Telegram Private File Storage Screenshot" width={512} height={512} className="mx-auto my-[2.5rem] rounded-lg" />
 
       <p className={"mb-[1.5rem] font-italic" + roboto.className}>
         Telegram Private File Storage Bot is a Telegram bot that provides a unique and convenient way to share messages with others while maintaining user privacy
